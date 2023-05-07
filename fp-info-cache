@@ -1,0 +1,99 @@
+23173132095049
+the78mole
+LM2107_ComModuleCon
+
+
+0
+12
+12
+the78mole
+MKDSN_15_2-508_BK
+
+
+0
+2
+2
+the78mole
+Molex_705550038_1X04_SL_Modular_1x04_P2.54mm_Horizontal
+2.54mm Pitch SL Header, Single Row, Right Angle, 3.05mm Pocket, Shrouded, with Press-fit Plastic Peg, 4 Circuits, 0.38µm Gold (Au) Selective Plating, Tin (Sn) PC Tail Plating
+connector Molex Nano-Fit top entry
+0
+6
+4
+the78mole
+RJ45_Weidmüller_2562920000_Horizontal
+10/100Base-TX RJ45 ethernet connector horizontal
+RJ45 ethernet magnetic
+0
+10
+9
+the78mole
+SO-8_3.9x4.9mm_P1.27mm
+SO, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+8
+8
+the78mole
+SW_Push_1P1T_NO_CK_KMR2
+CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+the78mole
+SW_SPST_B3FS-10xx
+Middle Stroke Tactile Switch, B3FS
+Middle Stroke Tactile Switch
+0
+4
+2
+the78mole
+SW_SPST_B3SL-1002P
+Middle Stroke Tactile Switch, B3SL
+Middle Stroke Tactile Switch
+0
+4
+2
+the78mole
+Think-BMS-Connector
+Through hole angled pin header, 2x21, 2.54mm pitch, 6mm pin length, double rows
+Through hole angled pin header THT 2x21 2.54mm double row
+0
+42
+42
+the78mole
+USB_Mini-B_Wuerth_65100516121_Horizontal
+Mini USB 2.0 Type B SMT Horizontal 5 Contacts (https://katalog.we-online.de/em/datasheet/65100516121.pdf)
+Mini USB 2.0 Type B
+0
+9
+6
+the78mole
+VQFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm
+VQFN, 8 Pin, EP
+VQFN NoLead
+0
+13
+9
+the78mole
+WAGO 2086-1208
+
+
+0
+16
+8
+the78mole
+WE-WP-PLUG_REDCUBE
+
+
+0
+12
+1
+the78mole
+Wago_734-164_1x04_P3.50mm_Horizontal
+Molex 734 Male header (for PCBs); Angled solder pin 1 x 1 mm, 734-164 , 4 Pins (http://www.farnell.com/datasheets/2157639.pdf), generated with kicad-footprint-generator
+connector Wago  top entry
+0
+4
+4

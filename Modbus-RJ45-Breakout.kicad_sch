@@ -5863,6 +5863,12 @@
     (uuid ffdf8b47-9705-4972-95cb-bad802238982)
   )
 
+  (text "Compatible Enclosures:\nAPRA-NORM 449-440-45 (90 x 72 x 33 mm with window)\nAPRA-NORM 449-440-40 (90 x 72 x 33 mm no window)\nand all other APRA-NORM of size 90 x 72\n\nWindows for 449-440-45:\nAPRA-NORM 449-140-01 (lightgrey)\nAPRA-NORM 449-140-02 (red transparent)\nAPRA-NORM 449-140-03 (clear transparent)\nAPRA-NORM 449-140-04 (grey transparent)\n\nPossibly also fitting windows:\nAPRA-NORM 449-340-01 (69,8 x 41,6 mm, lightgrey)\nAPRA-NORM 449-340-02 (69,8 x 41,6 mm, transparent)\n\n\n"
+    (at 343.535 250.825 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 015d285e-557b-478f-90bf-b7185099873d)
+  )
+
   (label "VBUS" (at 45.72 185.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1066b53b-9c27-44e1-b260-1f7016728f2c)

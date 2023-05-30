@@ -6124,7 +6124,7 @@
   (gr_text "https://github.com/the78mole/\nModBus-RJ45-Breakout-2" (at 121.9 71.15) (layer "F.SilkS") (tstamp 1926b84b-9788-4854-964b-d9b6fc685b27)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "A B (TP)\n2 5 (19,32)\n6 8 (17,33)\n3 7 (16,30)\n1 4 (18,31)\n" (at 54 54) (layer "F.SilkS") (tstamp 35b3c5ab-173b-43af-816e-d5ab8a7c881d)
+  (gr_text "A B (TP)\n2 5 (19,32)\n6 8 (17,30)\n3 7 (16,31)\n1 4 (18,33)\n" (at 54 54) (layer "F.SilkS") (tstamp 35b3c5ab-173b-43af-816e-d5ab8a7c881d)
     (effects (font (size 0.9 0.9) (thickness 0.16)) (justify left))
   )
   (gr_text "\n+5V\n  A\n  B\nGND\n" (at 53.4 54) (layer "F.SilkS") (tstamp 7bacf901-ae88-4075-afe6-649bfd5bc0f3)

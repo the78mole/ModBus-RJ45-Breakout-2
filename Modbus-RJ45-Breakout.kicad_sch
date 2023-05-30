@@ -2917,7 +2917,6 @@
     )
   )
 
-
   (junction (at 78.105 182.88) (diameter 0) (color 0 0 0 0)
     (uuid 03876cb5-80ed-42bb-8ec9-ffa1f5f53485)
   )
@@ -6235,6 +6234,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 71.12 227.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Reichelt" "IQD LFXTAL016788" (id 7) (at 71.12 227.965 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3bc0c306-1456-402e-a663-2b364f861e5b))

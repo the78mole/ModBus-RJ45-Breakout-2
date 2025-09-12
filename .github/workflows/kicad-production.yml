@@ -167,29 +167,35 @@ jobs:
       run: |
         mkdir -p ./release-assets
         
+        # Debug: Show what files are actually available
+        echo "=== Contents of production-artifacts ==="
+        find ./production-artifacts -type f | head -20
+        echo "=== Contents of documentation-artifacts ==="  
+        find ./documentation-artifacts -type f | head -20
+        
         # Copy PDF files
-        if [ -f "./documentation-artifacts/production/pdf/modbus-rj45-breakout_schematic.pdf" ]; then
-          cp "./documentation-artifacts/production/pdf/modbus-rj45-breakout_schematic.pdf" "./release-assets/"
-        elif [ -f "./production-artifacts/production/pdf/modbus-rj45-breakout_schematic.pdf" ]; then
-          cp "./production-artifacts/production/pdf/modbus-rj45-breakout_schematic.pdf" "./release-assets/"
+        if [ -f "./documentation-artifacts/production/pdf/Modbus-RJ45-Breakout_schematic.pdf" ]; then
+          cp "./documentation-artifacts/production/pdf/Modbus-RJ45-Breakout_schematic.pdf" "./release-assets/modbus-rj45-breakout_schematic.pdf"
+        elif [ -f "./production-artifacts/production/pdf/Modbus-RJ45-Breakout_schematic.pdf" ]; then
+          cp "./production-artifacts/production/pdf/Modbus-RJ45-Breakout_schematic.pdf" "./release-assets/modbus-rj45-breakout_schematic.pdf"
         fi
         
-        if [ -f "./documentation-artifacts/production/pdf/modbus-rj45-breakout_pcb.pdf" ]; then
-          cp "./documentation-artifacts/production/pdf/modbus-rj45-breakout_pcb.pdf" "./release-assets/"  
-        elif [ -f "./production-artifacts/production/pdf/modbus-rj45-breakout_pcb.pdf" ]; then
-          cp "./production-artifacts/production/pdf/modbus-rj45-breakout_pcb.pdf" "./release-assets/"
+        if [ -f "./documentation-artifacts/production/pdf/Modbus-RJ45-Breakout_pcb.pdf" ]; then
+          cp "./documentation-artifacts/production/pdf/Modbus-RJ45-Breakout_pcb.pdf" "./release-assets/modbus-rj45-breakout_pcb.pdf"
+        elif [ -f "./production-artifacts/production/pdf/Modbus-RJ45-Breakout_pcb.pdf" ]; then
+          cp "./production-artifacts/production/pdf/Modbus-RJ45-Breakout_pcb.pdf" "./release-assets/modbus-rj45-breakout_pcb.pdf"
         fi
         
         # Copy interactive BOM
-        if [ -f "./documentation-artifacts/production/bom/modbus-rj45-breakout_ibom.html" ]; then
-          cp "./documentation-artifacts/production/bom/modbus-rj45-breakout_ibom.html" "./release-assets/"
-        elif [ -f "./production-artifacts/production/bom/modbus-rj45-breakout_ibom.html" ]; then
-          cp "./production-artifacts/production/bom/modbus-rj45-breakout_ibom.html" "./release-assets/"
+        if [ -f "./documentation-artifacts/production/bom/Modbus-RJ45-Breakout_ibom.html" ]; then
+          cp "./documentation-artifacts/production/bom/Modbus-RJ45-Breakout_ibom.html" "./release-assets/modbus-rj45-breakout_ibom.html"
+        elif [ -f "./production-artifacts/production/bom/Modbus-RJ45-Breakout_ibom.html" ]; then
+          cp "./production-artifacts/production/bom/Modbus-RJ45-Breakout_ibom.html" "./release-assets/modbus-rj45-breakout_ibom.html"
         fi
         
         # Copy manufacturing ZIP for convenience
-        if [ -f "./production-artifacts/production/modbus-rj45-breakout_manufacturing.zip" ]; then
-          cp "./production-artifacts/production/modbus-rj45-breakout_manufacturing.zip" "./release-assets/"
+        if [ -f "./production-artifacts/production/Modbus-RJ45-Breakout_manufacturing.zip" ]; then
+          cp "./production-artifacts/production/Modbus-RJ45-Breakout_manufacturing.zip" "./release-assets/modbus-rj45-breakout_manufacturing.zip"
         fi
         
         echo "Release assets prepared:"

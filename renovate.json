@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "enabledManagers": [
+    "github-actions"
+  ],
+  "labels": ["dependencies"],
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "📦 Renovate Dependency Dashboard"
+}
